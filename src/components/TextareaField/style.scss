@@ -1,0 +1,106 @@
+.textarea-field {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: -842px;
+  position: relative;
+  top: -100px;
+
+  .div {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+  }
+
+  .label {
+    align-self: stretch;
+    color: #f5f5f5;
+    font-family: var(--evaafont-1-font-family);
+    font-size: var(--evaafont-1-font-size);
+    font-style: var(--evaafont-1-font-style);
+    font-weight: var(--evaafont-1-font-weight);
+    letter-spacing: var(--evaafont-1-letter-spacing);
+    line-height: var(--evaafont-1-line-height);
+    margin-top: -1.00px;
+    position: relative;
+  }
+
+  .description {
+    align-self: stretch;
+    color: #887178;
+    font-family: var(--evaafont-1-font-family);
+    font-size: var(--evaafont-1-font-size);
+    font-style: var(--evaafont-1-font-style);
+    font-weight: var(--evaafont-1-font-weight);
+    letter-spacing: var(--evaafont-1-letter-spacing);
+    line-height: var(--evaafont-1-line-height);
+    position: relative;
+  }
+
+  .text-wrapper {
+    align-self: stretch;
+    color: #757575;
+    font-family: var(--evaa-body-base-font-family);
+    font-size: var(--evaa-body-base-font-size);
+    font-style: var(--evaa-body-base-font-style);
+    font-weight: var(--evaa-body-base-font-weight);
+    letter-spacing: var(--evaa-body-base-letter-spacing);
+    line-height: var(--evaa-body-base-line-height);
+    position: relative;
+  }
+
+  .textarea {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #d9d9d9;
+    border-radius: 8px;
+    display: flex;
+    flex: 0 0 auto;
+    margin-left: -1.00px;
+    margin-right: -1.00px;
+    min-height: 80px;
+    min-width: 240px;
+    overflow: hidden;
+    padding: 12px 16px;
+    position: relative;
+    width: 100%;
+
+    .placeholder {
+      color: #887178;
+      flex: 1;
+      font-family: var(--evaa-input-body-text-font-family);
+      font-size: var(--evaa-input-body-text-font-size);
+      font-style: var(--evaa-input-body-text-font-style);
+      font-weight: var(--evaa-input-body-text-font-weight);
+      letter-spacing: var(--evaa-input-body-text-letter-spacing);
+      line-height: var(--evaa-input-body-text-line-height);
+      margin-top: -0.50px;
+      position: relative;
+    }
+  }
+
+  .drag {
+    bottom: 8px;
+    height: 7px;
+    position: absolute;
+    right: 7px;
+    width: 7px;
+  }
+
+  .hint {
+    align-self: stretch;
+    color: #522404;
+    font-family: var(--evaa-body-base-font-family);
+    font-size: var(--evaa-body-base-font-size);
+    font-style: var(--evaa-body-base-font-style);
+    font-weight: var(--evaa-body-base-font-weight);
+    letter-spacing: var(--evaa-body-base-letter-spacing);
+    line-height: var(--evaa-body-base-line-height);
+    position: relative;
+  }
+}
